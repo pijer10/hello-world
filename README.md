@@ -19,7 +19,7 @@ If you want to run this service via docker containers, you should first clone th
 `docker build -t hello-world-image .`
 
 Now the app is ready to run:
-`docker run -d -p 5000:5000 hello-world-image`
+`docker run -d -p 8080:8080 hello-world-image`
 
 ### Kubernetes Run
 This image is public: https://hub.docker.com/r/pijer10/hello-world
